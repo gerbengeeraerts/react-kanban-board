@@ -12,10 +12,21 @@
   },
   "author": "Gerben Geeraerts",
   "license": "MIT",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-buffer": "0.0.2",
     "gulp-compass": "^2.0.1",
-    "gulp-util": "^3.0.1"
+    "gulp-util": "^3.0.1",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
