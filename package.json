@@ -1,0 +1,21 @@
+{
+  "name": "React Kanban Board",
+  "version": "1.0",
+  "description": "React driven Kanban board.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gerbengeeraerts/react-kanban-board"
+  },
+  "author": "Gerben Geeraerts",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-buffer": "0.0.2",
+    "gulp-compass": "^2.0.1",
+    "gulp-util": "^3.0.1",
+  }
+}

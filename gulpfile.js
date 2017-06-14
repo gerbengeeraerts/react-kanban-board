@@ -7,7 +7,7 @@ gulp.task('styles', function(){
 		.pipe(compass({
 			css: './deploy/css',
 			sass: './css',
-			environment: 'production'
+			environment: 'development'
 		}))
 		.on('error', function(err){
 			gutil.log(err.message);
